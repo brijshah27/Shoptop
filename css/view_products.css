@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+.mar{
+	float:left;
+	padding-bottom:50px;
+}
+.product{
+  float:left;
+  background-color: #EEE;
+  padding:10px 10px;
+  margin-top:30px;
+  margin-left:55px;
+  border-radius: 5px;
+}
+
+.product:hover{
+  box-shadow:0px 0px 5px #00F;
+}
+
+.product .proImg{
+ clear:both;
+ float:left;
+ width:250px;
+ height:200px;
+ }
+
+.product .proInfo{
+  clear:both;
+  float:left;
+  width:250px;
+  margin-top: 10px;
+}
+.proInfo p
+{
+  padding:0px;
+  color:#000;
+}
+
+.proInfo .pname{
+  font-weight: 900px;
+  width:inherit;
+  font-size:24px;
+
+}
+
+.proInfo .pprice{
+  clear:both;
+  float:left;
+}
+.proInfo .prating{
+  float:right;
+}
+
+.proEdit{
+  clear:both;
+  float:left;
+  width:250px;
+  text-align:center;
+}
+
+.proEdit #editBtn{
+ float:left;
+ border: 0px;
+ background-color: #06f;
+ opacity: 0.7;
+}
+.proEdit #editBtn:hover{
+ opacity: 1;
+}
+
+.proEdit #delBtn{
+  float:right;
+  border: 0px;
+  background-color: #F00;
+  opacity: 0.7;
+}
+
+.proEdit #delBtn:hover{
+ opacity: 1;
+}
+
+.prev
+{
+	clear:left;
+	float:left;
+	margin-left:4%;
+	margin-bottom:50px;
+}
+.next
+{
+	
+	float:right;
+	margin-right:5%;
+	margin-bottom:50px;
+}
+.home
+{
+	float:left;
+	margin-left:38%;
+}

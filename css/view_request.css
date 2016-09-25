@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+
+.request{
+  float:left;
+  background-color: #EEE;
+  padding:10px 10px;
+  margin-top:30px;
+  margin-left:55px;
+  border-radius: 5px;
+}
+
+.request:hover{
+  box-shadow:0px 0px 5px #00F;
+}
+
+.rInfo .rname{
+  font-weight: 900px;
+  width:inherit;
+  font-size:24px;
+  text-decoration:none;
+  color:#000;
+  margin-bottom:10px;
+}
+.rInfo .rname:hover
+{
+	color:#06f;
+}
+
+.rInfo .rdetail{
+  clear:both;
+  float:left;
+}
+
+.rEdit{
+  clear:both;
+  float:left;
+  width:250px;
+  text-align:center;
+}
+
+
+
+.rEdit #delBtn{
+  float:left;
+  width:35%;
+  margin-left:10%;
+  margin-right:10%;
+  border: 0px;
+  background-color: #F00;
+  opacity: 0.7;
+}
+
+
+.rEdit #delBtn:hover{
+ opacity: 1;
+}
+
+.rEdit #appBtn{
+  float:left;
+  width:35%;
+  text-align:center;
+  margin-right:10%;
+  border: 0px;
+  background-color: #00F;
+  opacity: 0.7;
+}
+
+.rEdit #appBtn:hover{
+ opacity: 1;
+}

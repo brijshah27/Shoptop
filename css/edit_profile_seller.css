@@ -1,0 +1,57 @@
+a
+{
+  text-decoration: none;
+}
+.protext
+{
+ clear:left;
+ float:left;
+ margin:10px 0px 0px 300px;
+ width:200px;
+ font-size:18px;
+ color:#06F;
+ text-align:center;
+}
+
+.protext:hover
+{
+ text-shadow:none;
+}
+
+#prodiv
+{
+ float:left;
+ margin-left:300px;
+ width:200px;
+ height:200px;
+}
+
+#proimg
+{
+ top:0px;
+ left:0px;
+ width:inherit;
+ height:inherit;
+ box-shadow:-1px -1px 1px #000;
+}
+
+#proinput
+{
+ width:inherit;
+ height:inherit;
+ top:-200px;
+ left:0px;
+ position:relative;
+ opacity: 0;
+}
+
+#proinput:hover
+{
+ cursor:pointer;
+}
+
+#remove
+{
+
+  cursor: pointer;
+}

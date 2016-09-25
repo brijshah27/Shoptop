@@ -1,0 +1,157 @@
+@charset "utf-8";
+/* CSS Document */
+.mar{
+	width:100%;
+	float:left;
+	margin-top:-200px;
+	padding-left:220px;
+	padding-bottom:50px;
+}
+.product{
+  float:left;
+  background-color: #EEE;
+  padding:10px 10px;
+  margin-top:30px;
+  margin-left:75px;
+  border-radius: 5px;
+}
+
+.product:hover{
+  box-shadow:0px 0px 5px #00F;
+}
+
+.product .proImg{
+ clear:both;
+ float:left;
+ width:250px;
+ height:200px;
+ }
+
+.product .proInfo{
+  clear:both;
+  float:left;
+  width:250px;
+  margin-top: 10px;
+}
+.proInfo p
+{
+  padding:0px;
+  color:#000;
+}
+
+.proInfo .pname{
+  font-weight: 900px;
+  width:inherit;
+  font-size:24px;
+
+}
+
+.proInfo .pprice{
+  clear:both;
+  float:left;
+}
+.proInfo .prating{
+  float:right;
+}
+.proInfo .pdis{
+clear:left;
+  float:left;
+}
+.proInfo .psname{
+	width:100px;
+	height:25px;
+	overflow:hidden;
+  float:right;
+  text-align:right;
+}
+
+.proEdit{
+  clear:both;
+  float:left;
+  width:250px;
+  text-align:center;
+}
+
+
+
+.proEdit #delBtn{
+  text-align:center;
+  border: 0px;
+  background-color: #00F;
+  opacity: 0.7;
+}
+
+.proEdit #delBtn:hover{
+ opacity: 1;
+}
+
+
+.scat
+{
+position:relative;
+padding:10px 15px;
+margin-bottom:-1px;
+background-color:#e5e5e5;
+border:1px solid #ddd;	
+text-align:center;
+}
+
+.cat
+{
+position:relative;
+padding:10px 15px;
+margin-bottom:-1px;
+background-color:#FFF;
+border:1px solid #ddd;	
+text-align:center;
+}
+
+.ssub{
+float:left;
+margin-left:3%;
+margin-top:10px;
+  text-align:center;
+  opacity:1;	
+}
+.ssub #Btn{
+  padding:7px 20px;  
+  border: 0px;
+  background-color: #00F;
+  opacity:1;
+}
+.sub{
+float:left;
+margin-left:3%;
+margin-top:10px;
+  text-align:center;	
+}
+.sub #Btn{
+  padding:7px 20px;
+  border: 0px;
+  background-color: #00F;
+  opacity: 0.4;
+}
+
+.sub #Btn:hover{
+
+ opacity:1;
+}
+
+.prev
+{
+	clear:left;
+	float:left;
+	margin-left:22%;
+	margin-bottom:50px;
+}
+.next
+{
+	float:right;
+	margin-right:7%;
+	margin-bottom:50px;
+}
+.home
+{
+	float:left;
+	margin-left:25%;
+}
